@@ -1,0 +1,3 @@
+R5T.B0006.Construction - Construction project for Generators and operators for Roslyn syntax types..
+
+GOALS:
