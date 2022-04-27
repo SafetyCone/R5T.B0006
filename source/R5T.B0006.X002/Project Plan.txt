@@ -1,0 +1,7 @@
+R5T.B0006.X002 - Common, high-dependency extensions.
+
+* Common: nothing organization-unique.
+* High-dependency: any dependencies are allowed.
+
+
+GOALS:

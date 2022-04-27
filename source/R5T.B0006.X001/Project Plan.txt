@@ -1,0 +1,12 @@
+R5T.B0006.X001 - Common, low-dependency extensions.
+
+* Common: nothing organization-unique.
+* Simple: only depdencies allowed are:
+	
+	* Magyar
+
+	* B0006
+	* L0011
+
+
+GOALS:
