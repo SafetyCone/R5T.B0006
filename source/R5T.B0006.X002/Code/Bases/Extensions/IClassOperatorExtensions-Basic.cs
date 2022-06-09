@@ -16,7 +16,7 @@ namespace System
             NamespaceDeclarationSyntax @namespace,
             ClassDeclarationSyntax @class)
         {
-            @class = @class.AnnotateTyped(out var annotation);
+            @class = @class.Annotate_Typed(out var annotation);
 
             @namespace = _.AddClass_SimpleSynchronous(
                 @namespace,

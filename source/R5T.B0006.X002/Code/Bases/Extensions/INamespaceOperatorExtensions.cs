@@ -36,7 +36,7 @@ namespace System
         /// </summary>
         public static CompilationUnitSyntax SetEndBraceLineIndentation(this INamespaceOperator _,
             CompilationUnitSyntax compilationUnit,
-            NamespaceAnnotation namespaceAnnotation)
+            ISyntaxNodeAnnotation<NamespaceDeclarationSyntax> namespaceAnnotation)
         {
             compilationUnit = compilationUnit.Modify_TypedSynchronous(
                 namespaceAnnotation,
